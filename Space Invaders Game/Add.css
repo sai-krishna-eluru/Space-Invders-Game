@@ -1,0 +1,47 @@
+/* Center the entire content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make sure the body takes up the full viewport height */
+    flex-direction: column; /* Stack the header and grid vertically */
+    margin: 0;
+    text-align: center; /* Center text inside headers */
+}
+
+h1, h2 {
+    margin: 10px 0; /* Adjust margin to ensure space between header elements */
+}
+
+/* Grid styles */
+.grid {
+	width: 300px;
+	height: 300px;
+	border: solid black 1px;
+	display: flex;
+	flex-wrap: wrap;
+    margin: 20px 0; /* Add margin to separate the grid from the headers */
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+/* Invader, shooter, laser, and boom classes */
+.invader {
+	background-color: purple;
+	border-radius: 10px;
+}
+
+.shooter {
+	background-color: green;
+}
+
+.laser {
+	background-color: orange;
+}
+
+.boom {
+	background-color: red;
+}
